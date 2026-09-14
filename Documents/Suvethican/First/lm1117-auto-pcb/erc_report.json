@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-14T23:42:23+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.9",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/29d12a8b-8701-4e37-b700-7a334444feca",
+            "violations": [
+                {
+                    "description": "Footprint 'TerminalBlock_bornier-2_P5.08mm' not found in library 'TerminalBlock'.",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [Screw_Terminal_01x02]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 0.8636
+                            },
+                            "uuid": "50cc9f65-1500-4376-9910-a95200417cc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'TerminalBlock_bornier-2_P5.08mm' not found in library 'TerminalBlock'.",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [Screw_Terminal_01x02]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.8636
+                            },
+                            "uuid": "c5d3efc6-a4a3-4516-a125-b5e69b7c4f9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        }
+    ],
+    "source": "Regulator.kicad_sch"
+}
