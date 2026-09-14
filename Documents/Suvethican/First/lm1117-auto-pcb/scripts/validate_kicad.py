@@ -19,7 +19,7 @@ def run_kicad_cli(command, description):
         )
         
         if result.returncode != 0:
-            print(f"⚠️ CLI execution failed for {description} (Code: {result.returncode})")
+            print(f" CLI execution failed for {description} (Code: {result.returncode})")
             print("Error Output:\n", result.stderr)
         else:
             print(f" {description} report generated successfully.")
