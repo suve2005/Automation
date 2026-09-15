@@ -1,0 +1,28 @@
+name: PCB Manufacturing Pipeline
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  fabrication:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run KiBot
+        uses: INTI-CMNB/KiBot@v3_k9
+        with:
+          config: kibot.yaml
+          dir: Fabrication_Files
+          schema: 'KiBot/Regulator.kicad_sch'
+          board: 'KiBot/Regulator.kicad_pcb'
+
+      - name: Upload Manufacturing Files
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: Factory-Release
+          path: Fabrication_Files/

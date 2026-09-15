@@ -1,0 +1,26 @@
+kibot:
+  version: 1
+
+
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+
+outputs:
+  - name: 'Factory_Gerbers'
+    comment: 'Gerber files for PCB fabrication (e.g., JLCPCB)'
+    type: gerber
+    dir: 'Outputs/Gerbers'
+
+  - name: 'Factory_Drill'
+    comment: 'Excellon drill files for hole drilling'
+    type: excellon
+    dir: 'Outputs/Drill'
+
+  - name: 'Interactive_BOM'
+    comment: 'A visual HTML page to help humans solder the board'
+    type: ibom
+    dir: 'Outputs/BOM'
