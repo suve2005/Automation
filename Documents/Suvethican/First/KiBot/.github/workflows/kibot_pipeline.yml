@@ -4,8 +4,7 @@ name: PCB Manufacturing Pipeline
 on:
   push:
     paths:
-      - '**/*.kicad_sch'
-      - '**/*.kicad_pcb'
+    workflow_dispatch:
 
 jobs:
   fabrication:
