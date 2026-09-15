@@ -15,7 +15,7 @@ jobs:
       - name: Run KiBot
         uses: INTI-CMNB/KiBot@v2_k9
         with:
-          config: kibot.yaml
+          config: KiBot/kibot.yaml
           dir: Fabrication_Files
           schema: 'KiBot/Regulator.kicad_sch'
           board: 'KiBot/Regulator.kicad_pcb'
