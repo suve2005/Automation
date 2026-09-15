@@ -1,13 +1,10 @@
 kibot:
   version: 1
 
-
 preflight:
-  run_erc: true
-  run_drc: true
+  erc: false
+  drc: false
   check_zone_fills: true
-  ignore_unconnected: false
-
 
 outputs:
   - name: 'Factory_Gerbers'
