@@ -17,8 +17,8 @@ jobs:
         with:
           config: kibot.yaml
           dir: Fabrication_Files
-          schema: 'Regulator.kicad_sch'
-          board: 'Regulator.kicad_pcb'
+          schema: 'KiBot/Regulator.kicad_sch'
+          board: 'KiBot/Regulator.kicad_pcb'
 
       - name: Upload Manufacturing Files
         uses: actions/upload-artifact@v4
