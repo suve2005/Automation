@@ -32,7 +32,7 @@ def run_kicad_cli(command, description):
 if __name__ == "__main__":
     repo_dir = "AMS1117-Regulator-PCB"
     
-    print(f"🔍 Searching for KiCad files in: {repo_dir}/")
+    print(f"Searching for KiCad files in: {repo_dir}/")
     
     # Automatically find the first .kicad_sch and .kicad_pcb files in the folder
     sch_files = glob.glob(os.path.join(repo_dir, "*.kicad_sch"))
