@@ -1,0 +1,4607 @@
+(session Cyclometer_v1
+  (base_design Cyclometer_v1)
+  (placement
+    (resolution um 10)
+    (component "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA"
+      (place D13 1363000 -1425000 front 180)
+      (place D17 1363000 -565000 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+      (place R15 1339000 -921000 front 45)
+      (place R21 1430000 -1425000 front 180)
+      (place R28 1448625 -1066000 front 90)
+      (place R30 1484000 -1330000 front 90)
+      (place R4 1015000 -930000 front 270)
+      (place R29 1448625 -1114000 front 270)
+      (place R8 1490000 -740000 front 270)
+      (place R22 1078000 -1425000 front 0)
+      (place R16 1319000 -901000 front 45)
+      (place R6 1365000 -1155100 front 180)
+      (place R27 1439000 -1034000 front 0)
+      (place Ra2 1355000 -1321775 front 180)
+      (place R25 1439000 -563000 front 180)
+      (place R19 1490000 -912000 front 270)
+      (place Rp2 1313000 -1155100 front 180)
+      (place R13 1314000 -1117000 front 315)
+      (place R20 1490000 -1245000 front 90)
+      (place R26 1439000 -1144750 front 0)
+      (place R23 1015000 -743000 front 270)
+      (place R14 1340000 -1093000 front 315)
+      (place R12 1021750 -566750 front 0)
+      (place Ra1 1395000 -1289775 front 270)
+      (place R24 1076000 -566000 front 0)
+      (place R2 1175000 -813000 front 270)
+      (place R1 1427000 -795000 front 180)
+      (place R5 1015000 -1117000 front 270)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+      (place C8 1085000 -917000 front 225)
+      (place C4 1226000 -1135000 front 225)
+      (place C9 1187625 -1098000 front 225)
+      (place C7 1099336 -976336 front 135)
+      (place C1 1286000 -872000 front 45)
+      (place C6 1121000 -954000 front 135)
+      (place C18 1216000 -885000 front 315)
+      (place C3 1206000 -1116000 front 225)
+      (place C2 1364000 -1040000 front 315)
+      (place C5 1142000 -933000 front 135)
+    )
+    (component "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA::1"
+      (place D14 1150000 -1425000 front 0)
+      (place D16 1149000 -564000 front 0)
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
+      (place J5 1218000 -633750 front 90)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder::1
+      (place C21 1405500 -1205200 front 90)
+      (place C14 1138000 -1217000 front 270)
+      (place C15 1199000 -1259000 front 180)
+      (place C19 1439000 -1176000 front 0)
+      (place C24 1522000 -1314000 front 0)
+      (place C17 1247000 -1198000 front 90)
+      (place C16 1246000 -1248000 front 90)
+      (place C22 1438000 -1007000 front 180)
+      (place C11 1191000 -767000 front 180)
+      (place C33 1355000 -1257775 front 0)
+      (place C23 1522000 -1341000 front 180)
+      (place C10 1243000 -768000 front 180)
+      (place C32 1292500 -1287275 front 90)
+    )
+    (component Button_Switch_THT:SW_PUSH_6mm
+      (place SW2 1499500 -598500 front 90)
+      (place SW1 1499500 -698500 front 90)
+    )
+    (component LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place D2 1544000 -1164000 front 0)
+    )
+    (component TestPoint:TestPoint_Pad_D1.5mm
+      (place TP6 1277000 -582000 front 90)
+      (place TP5 1239000 -582000 front 90)
+    )
+    (component "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+      (place U1 1252500 -1000000 front 315)
+    )
+    (component "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA::2"
+      (place D12 1490000 -1190000 front 90)
+    )
+    (component "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA::3"
+      (place D10 1490000 -805000 front 270)
+      (place D11 1490000 -1000000 front 270)
+      (place D1 1015000 -999000 front 270)
+      (place D15 1015000 -806000 front 270)
+      (place D4 1015000 -1192000 front 270)
+    )
+    (component "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
+      (place J8 1545000 -1095000 front 90)
+    )
+    (component "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
+      (place Y1 1231000 -814000 front 180)
+    )
+    (component "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
+      (place U2 1190500 -1207500 front 0)
+    )
+    (component "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+      (place U4 1341250 -1206150 front 0)
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical
+      (place J4 1420400 -1364000 front 270)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (place J6 1221000 -542000 front 90)
+    )
+    (component Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+      (place C20 1443000 -849250 front 90)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-5"
+      (place U12 1355625 -1289150 front 0)
+    )
+    (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+      (place U3 1386000 -860000 front 0)
+    )
+    (component TestPoint:TestPoint_Pad_D3.0mm
+      (place TP2 1145000 -1260000 back 0)
+      (place TP1 1215000 -1260000 back 0)
+      (place TP3 1329000 -761000 back 0)
+      (place TP4 1395000 -761000 back 0)
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical
+      (place J7 1098800 -690000 back 90)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal
+      (place J1 1526250 -815800 back 180)
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical::1
+      (place J2 1546000 -1203600 back 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::1
+      (place R3 1466000 -569000 back 90)
+      (place R7 1466000 -664000 back 90)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal
+      (place J3 1520000 -1432400 back 180)
+    )
+    (component Button_Switch_THT:SW_PUSH_6mm::1
+      (place RST1 1057500 -692500 back 270)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal
+      (place J9 1525000 -992000 back 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "8.0.9-8.0.9-0~ubuntu22.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path F.Cu 2500
+            1261500 -958750
+            1260750 -958000
+            1260750 -945788
+            1269650 -936891
+            1279000 -927538
+            1279000 -896000
+            1298000 -877000
+            1298000 -871802
+            1292100 -865901
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1119861 -940464
+            1105063 -955264
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1119861 -940464
+            1119864 -940464
+            1134664 -925664
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1134660 -925664
+            1119861 -940464
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1427620 -1031660
+            1429000 -1033040
+            1429000 -1034000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1427620 -1031660
+            1427620 -1023440
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1417000 -1047000
+            1420500 -1047000
+            1427620 -1039880
+            1427620 -1031660
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1344995 -1321780
+            1345000 -1321775
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1344995 -1321780
+            1345880 -1321780
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1329000 -1336000
+            1343220 -1321780
+            1344995 -1321780
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1429000 -1143870
+            1429000 -1144750
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1429000 -1143870
+            1429880 -1144750
+            1429880 -1142380
+            1419750 -1132250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1426380 -1141250
+            1429000 -1143870
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1077660 -933953
+            1077664 -933949
+            1077664 -924336
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1077660 -933953
+            1077660 -943570
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1077660 -924336
+            1077660 -933953
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1218000 -1136000
+            1218664 -1136664
+            1218664 -1142336
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1201800 -1120200
+            1202200 -1120200
+            1218000 -1136000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1180293 -1105340
+            1180289 -1105336
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1201800 -1120200
+            1186940 -1105340
+            1180293 -1105340
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1180293 -1105340
+            1180290 -1105340
+            1180290 -1109710
+            1164000 -1126000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1105063 -955264
+            1092000 -968328
+            1092000 -969000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1105063 -955264
+            1105064 -955264
+            1113664 -946664
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1209900 -874000
+            1208664 -875236
+            1208664 -877664
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1209900 -874000
+            1209900 -878901
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1227000 -852000
+            1209900 -869099
+            1209900 -874000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1370100 -1046100
+            1371336 -1047336
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1370100 -1046100
+            1352600 -1046100
+            1340750 -1034250
+            1332750 -1034250
+            1315650 -1017150
+            1315610 -1017150
+            1311985 -1013525
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1385000 -1036000
+            1374900 -1046100
+            1370100 -1046100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1405505 -1194820
+            1405500 -1194825
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1452380 -1188620
+            1446180 -1194820
+            1405505 -1194820
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1405505 -1194820
+            1405500 -1194820
+            1405500 -1192120
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1138125 -1206750
+            1136000 -1204620
+            1136000 -1186000
+            1198664 -1123336
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1140250 -1208880
+            1138125 -1206750
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1138125 -1206750
+            1138000 -1206625
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1452380 -1179000
+            1452375 -1179000
+            1449375 -1176000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1452380 -1179000
+            1452380 -1178000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1452380 -1180000
+            1452380 -1179000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1532380 -1305315
+            1532375 -1305320
+            1532375 -1314000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1532380 -1305315
+            1532380 -1317210
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1546000 -1279800
+            1532380 -1293420
+            1532380 -1305315
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1245245 -1206620
+            1247000 -1208375
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1245245 -1206620
+            1231380 -1206620
+            1219750 -1195000
+            1210000 -1195000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1259000 -1200000
+            1252380 -1206620
+            1245245 -1206620
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1246000 -1258380
+            1246000 -1258375
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1209375 -1259000
+            1246000 -1259000
+            1246000 -1258380
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1427620 -1023440
+            1427625 -1023435
+            1427625 -1007000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1427620 -1023440
+            1427620 -1007000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1180620 -762187
+            1180625 -762192
+            1180625 -767000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1180620 -762187
+            1180620 -757375
+            1186000 -752000
+            1226500 -752000
+            1232620 -758125
+            1232620 -758122
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1180620 -767000
+            1180620 -762187
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1344620 -1257780
+            1344625 -1257775
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1299000 -1258000
+            1299220 -1257780
+            1344620 -1257780
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1532380 -1317210
+            1532375 -1317215
+            1532375 -1341000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1532380 -1317210
+            1532380 -1341000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1232620 -758122
+            1232625 -758127
+            1232625 -768000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1232620 -758122
+            1232620 -755625
+            1246000 -742250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1175375 -947623
+            1199997 -972245
+            1199997 -972246
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1175375 -947623
+            1200000 -972246
+            1205960 -978205
+            1218790 -978205
+            1222000 -975000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1134260 -926263
+            1137530 -923000
+            1150750 -923000
+            1175375 -947623
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1195695 -1010845
+            1195693 -1010845
+            1189391 -1017147
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1195695 -1010845
+            1189390 -1017150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1202000 -997500
+            1202000 -1004540
+            1195695 -1010845
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1235353 -1063107
+            1235353 -1063109
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1311985 -1013525
+            1307460 -1009000
+            1276600 -1009000
+            1246500 -1039100
+            1246500 -1051960
+            1235353 -1063107
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1235353 -1063107
+            1235350 -1063110
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1311985 -1013525
+            1311987 -1013525
+            1315609 -1017147
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1508300 -1061500
+            1508300 -1064500
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1508300 -1061500
+            1508300 -1057450
+            1513950 -1051800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1508300 -1128500
+            1508300 -1125500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1508300 -1128500
+            1508300 -1132550
+            1513950 -1138200
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1077660 -943570
+            1077660 -954664
+            1092000 -969000
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_600:300_um" 1077660 -943570
+        )
+        (wire
+          (path F.Cu 2000
+            1411350 -854250
+            1410750 -853650
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1443000 -857875
+            1439380 -854250
+            1411350 -854250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1411350 -854250
+            1403350 -854250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1193000 -1286000
+            1203000 -1286000
+            1209120 -1279880
+            1209120 -1259000
+            1209375 -1259000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1452380 -1188620
+            1452380 -1180000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1452380 -1188620
+            1452380 -1180000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1198664 -1123336
+            1201800 -1120200
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1156500 -1280500
+            1155000 -1279000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1193000 -1286000
+            1162000 -1286000
+            1156500 -1280500
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1261500 -958750
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1246000 -742250
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1222000 -975000
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1292500 -1276900
+            1292500 -1264500
+            1299000 -1258000
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1299000 -1258000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1227000 -852000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1419750 -1132250
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1202000 -997500
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1444000 -905000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1385000 -1036000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1164000 -1126000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1453000 -1201000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1324000 -1291000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1417000 -1047000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1208000 -581000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1286000 -1212000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1259000 -1200000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1193000 -1286000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1329000 -1336000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1222000 -975000
+            1202000 -995000
+            1202000 -997500
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1155000 -1279000
+            1140500 -1264500
+            1145000 -1260000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1544500 -533500
+            1544500 -598500
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1222000 -975000
+            1238250 -958750
+            1261500 -958750
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1156500 -1280500
+            1155000 -1279000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1315000 -1187100
+            1328900 -1187100
+            1329000 -1187000
+            1332500 -1190500
+            1332500 -1211000
+            1331000 -1212500
+            1315000 -1212500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1315000 -1212500
+            1286500 -1212500
+            1286000 -1212000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1315000 -1187100
+            1299600 -1187100
+            1295000 -1182500
+            1295000 -1177500
+            1300000 -1172500
+            1317500 -1172500
+            1323000 -1167000
+            1323000 -1155100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1410750 -853650
+            1391350 -853650
+            1384000 -861000
+            1384000 -873000
+            1377950 -879050
+            1361250 -879050
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1544500 -590500
+            1544500 -598500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1324000 -1291000
+            1325850 -1289150
+            1344250 -1289150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1444000 -905000
+            1443000 -904000
+            1443000 -857875
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1239000 -582000
+            1209000 -582000
+            1208000 -581000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1453000 -1201000
+            1452380 -1200380
+            1452380 -1188620
+          )
+          (type protect)
+        )
+      )
+      (net +3.3V
+        (wire
+          (path F.Cu 2000
+            1365380 -1257780
+            1365375 -1257775
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1365380 -1257780
+            1386780 -1257780
+            1395000 -1266000
+            1395000 -1279775
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1448625 -1056000
+            1448000 -1056625
+            1448000 -1057250
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1448625 -1121000
+            1457500 -1121000
+            1470000 -1108500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1448620 -1121000
+            1448625 -1121000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1448625 -1124000
+            1448625 -1121000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1326071 -893929
+            1326070 -893929
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1341000 -864000
+            1341000 -879000
+            1326071 -893929
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1326071 -893929
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1321071 -1121630
+            1326370 -1121630
+            1347070 -1100930
+            1347070 -1100071
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1265000 -1130000
+            1273370 -1121630
+            1321071 -1121630
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1321071 -1124071
+            1321071 -1121630
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1347070 -1100071
+            1347070 -1100070
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1347071 -1100071
+            1347070 -1100071
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1230200 -1123800
+            1214400 -1108000
+            1214000 -1108000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1243750 -1110750
+            1243250 -1110750
+            1230200 -1123800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1233336 -1127664
+            1230200 -1124528
+            1230200 -1123800
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1278708 -879291
+            1279900 -878099
+            1279900 -877901
+            1266750 -864750
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1266110 -933355
+            1266110 -891888
+            1275900 -882099
+            1278708 -879291
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1278664 -879336
+            1278708 -879292
+            1278708 -879291
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1129002 -962002
+            1107330 -983672
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1149340 -941664
+            1129002 -962002
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1128336 -961336
+            1129002 -962002
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1214000 -1108000
+            1233500 -1088500
+            1233500 -1072030
+            1238887 -1066643
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1213336 -1108664
+            1214000 -1108000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1196461 -975783
+            1196460 -975782
+            1179680 -959000
+            1166000 -959000
+            1149340 -942336
+            1149340 -941664
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1149336 -940336
+            1149340 -940340
+            1149340 -941664
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1511625 -1314000
+            1511620 -1314000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1246000 -1237620
+            1246000 -1232000
+            1234000 -1220000
+            1210000 -1220000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1264000 -1163000
+            1271000 -1170000
+            1271000 -1222000
+            1255380 -1237620
+            1246000 -1237620
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1246000 -1237625
+            1246000 -1237620
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1364810 -1258965
+            1366000 -1260150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1511625 -1341000
+            1511620 -1341000
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1226807 -986800
+            1207480 -986800
+            1196461 -975783
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1196462 -975782
+            1196461 -975783
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1192926 -1020683
+            1192927 -1020683
+            1192930 -1020680
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1238887 -1066643
+            1259200 -1046330
+            1259200 -1044500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1238888 -1066645
+            1238887 -1066644
+            1238887 -1066643
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1319145 -1013610
+            1319140 -1013610
+            1312940 -1007400
+            1312650 -1007400
+            1279750 -974500
+            1239110 -974500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1356664 -1032664
+            1337610 -1013610
+            1319145 -1013610
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1319145 -1013612
+            1319145 -1013610
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1239110 -974500
+            1246100 -967509
+            1246100 -953367
+            1266110 -933355
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1266112 -933355
+            1266110 -933355
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1407988 -840625
+            1403080 -840625
+            1402750 -840950
+            1399950 -840950
+            1380000 -821000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1443000 -840625
+            1407988 -840625
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1410750 -840950
+            1408313 -840950
+            1407988 -840625
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1364810 -1258965
+            1365375 -1258400
+            1365375 -1257775
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1363620 -1257780
+            1364810 -1258965
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1394500 -1280150
+            1394630 -1280150
+            1395000 -1279780
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1394500 -1280150
+            1395000 -1280650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1394000 -1279650
+            1394500 -1280150
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1107330 -983672
+            1106672 -983672
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1112002 -979000
+            1107330 -983672
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1125000 -986000
+            1118000 -979000
+            1112002 -979000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1112002 -979000
+            1110870 -979000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1303000 -564000
+            1304000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1299000 -564000
+            1303000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1282000 -1425000
+            1284250 -1425000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1268000 -1364000
+            1268000 -1411000
+            1282000 -1425000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1282000 -1425000
+            1165000 -1425000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1284250 -1425000
+            1282000 -1425000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1106672 -983672
+            1106670 -983672
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1226807 -986800
+            1227759 -985847
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1221800 -992800
+            1221800 -991809
+            1226807 -986800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1226807 -986800
+            1226810 -986800
+            1227759 -985847
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1227759 -985847
+            1230700 -982905
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1475000 -1280000
+            1485000 -1290000
+            1485000 -1302000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1474780 -1279780
+            1475000 -1280000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1485000 -1302000
+            1485000 -1305000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1485000 -1302000
+            1485000 -1305000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1395000 -1279775
+            1395000 -1279780
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1381000 -1010000
+            1381000 -1010800
+            1357900 -1033900
+            1356664 -1032664
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1286000 -564000
+            1299000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1164000 -564000
+            1286000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1484000 -1320000
+            1460750 -1320000
+            1454250 -1326500
+            1454250 -1382000
+            1444500 -1391750
+            1358750 -1391750
+            1348000 -1402500
+            1348000 -1425000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1490000 -1320000
+            1484000 -1320000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1484000 -1320000
+            1490000 -1320000
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1469750 -1073250
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1403500 -1017500
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1523000 -723000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1381000 -1010000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1380000 -821000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1221800 -992800
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1243750 -1110750
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1490000 -1140000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1500000 -841000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1125000 -986000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1330000 -633000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1439750 -822250
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1266750 -864750
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1375000 -908000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1068500 -1007000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1470000 -1108500
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1259200 -1044500
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1341000 -864000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1265000 -1130000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1264000 -1163000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1341000 -864000
+            1341000 -885000
+            1364000 -908000
+            1375000 -908000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1466000 -674000
+            1469000 -671000
+            1509000 -671000
+            1521000 -683000
+            1521000 -693000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1380000 -821000
+            1378250 -822750
+            1304500 -822750
+            1275750 -851500
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1470000 -1108500
+            1470000 -1073500
+            1469750 -1073250
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1341000 -864000
+            1310250 -864000
+            1297750 -851500
+            1275750 -851500
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1275750 -851500
+            1266750 -860500
+            1266750 -864750
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1068500 -1007000
+            1087500 -1026000
+            1108000 -1026000
+            1125000 -1009000
+            1125000 -986000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1523000 -723000
+            1521000 -721000
+            1521000 -693000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1447000 -643000
+            1447000 -666000
+            1455000 -674000
+            1466000 -674000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1490000 -1140000
+            1490000 -1137000
+            1470000 -1117000
+            1470000 -1108500
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1265000 -1130000
+            1264000 -1131000
+            1264000 -1163000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1447000 -643000
+            1447000 -587000
+            1455000 -579000
+            1466000 -579000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1330000 -633000
+            1437000 -633000
+            1447000 -643000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1500000 -841000
+            1458500 -841000
+            1439750 -822250
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1381000 -1010000
+            1393500 -1010000
+            1401000 -1017500
+            1403500 -1017500
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1330000 -633000
+            1330000 -634750
+            1304000 -660750
+            1285500 -660750
+            1276600 -669650
+            1276600 -690000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1265000 -1130000
+            1263000 -1130000
+            1243750 -1110750
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1259200 -1044500
+            1221800 -1007100
+            1221800 -992800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1546000 -1203600
+            1517400 -1175000
+            1490000 -1175000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1500000 -841000
+            1490000 -831000
+            1490000 -820000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1403500 -1017500
+            1403500 -1008500
+            1429000 -983000
+            1455000 -983000
+            1487000 -1015000
+            1490000 -1015000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1286000 -564000
+            1299000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1015000 -1207000
+            1015000 -1347000
+            1032000 -1364000
+            1090200 -1364000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1304000 -564000
+            1347000 -564000
+            1348000 -565000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1490000 -1015000
+            1542750 -1015000
+            1549250 -1008500
+            1549250 -973750
+            1542100 -966600
+            1525000 -966600
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1448000 -1057250
+            1448620 -1057880
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1277000 -582000
+            1277000 -573000
+            1286000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1192930 -1020680
+            1220810 -992800
+            1221800 -992800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1015000 -1014000
+            997000 -1014000
+            989000 -1006000
+            989000 -829250
+            997250 -821000
+            1015000 -821000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1490000 -820000
+            1522050 -820000
+            1526250 -815800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1271800 -542000
+            1297200 -542000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1090200 -1364000
+            1090200 -1386950
+            1100750 -1397500
+            1155500 -1397500
+            1165000 -1407000
+            1165000 -1425000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1546000 -1203600
+            1530400 -1203600
+            1510000 -1224000
+            1510000 -1271000
+            1501000 -1280000
+            1475000 -1280000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1395000 -1279780
+            1367120 -1279780
+            1367000 -1279650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1227759 -985847
+            1228100 -985505
+            1230700 -982905
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1230700 -982905
+            1239110 -974500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1330000 -633000
+            1331750 -633000
+            1348000 -616750
+            1348000 -565000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1469750 -1073250
+            1469750 -1070750
+            1456880 -1057880
+            1448620 -1057880
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1523000 -723000
+            1530000 -723000
+            1552250 -745250
+            1552250 -808250
+            1544700 -815800
+            1526250 -815800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1439750 -822250
+            1443000 -825500
+            1443000 -840625
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1511620 -1314000
+            1511620 -1341000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1395000 -1279780
+            1474780 -1279780
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1490000 -1140000
+            1490000 -1175000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1303000 -564000
+            1304000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1403500 -1017500
+            1403500 -1049250
+            1412120 -1057880
+            1448620 -1057880
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1346071 -913929
+            1346070 -913929
+            1342450 -917548
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1366000 -1278650
+            1367000 -1279650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1297200 -542000
+            1297200 -558200
+            1303000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1015000 -1014000
+            1061500 -1014000
+            1068500 -1007000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1031750 -566750
+            1031750 -549750
+            1049300 -532200
+            1149700 -532200
+            1164000 -546500
+            1164000 -564000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1375000 -908000
+            1369070 -913929
+            1346071 -913929
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1475000 -1280000
+            1474780 -1279780
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1284250 -1425000
+            1348000 -1425000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1490000 -1320000
+            1505620 -1320000
+            1511620 -1314000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1485000 -1305000
+            1485000 -1319000
+            1484000 -1320000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-NRST)"
+        (wire
+          (path F.Cu 2000
+            1217675 -954568
+            1217670 -954568
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1092340 -909664
+            1092336 -909664
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1109500 -895500
+            1095340 -909664
+            1092340 -909664
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1012500 -692500
+            1012500 -627500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1109500 -895500
+            1109500 -887500
+            1097000 -875000
+            1097000 -727000
+            1087000 -717000
+            1027000 -717000
+            1012500 -702500
+            1012500 -692500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1012500 -627500
+            1012500 -567500
+            1011750 -566750
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1161000 -883000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1109500 -895500
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1109500 -895500
+            1133500 -895500
+            1146000 -883000
+            1161000 -883000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1217670 -954568
+            1161000 -897893
+            1161000 -883000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-VCAP_1)"
+        (wire
+          (path F.Cu 2000
+            1194965 -1090660
+            1194961 -1090664
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1194965 -1090660
+            1200730 -1090660
+            1216275 -1075115
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1194960 -1090660
+            1194965 -1090660
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1216275 -1075115
+            1216276 -1075115
+            1231817 -1059574
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1216275 -1075115
+            1231820 -1059570
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/HSE_IN
+        (wire
+          (path F.Cu 2000
+            1253380 -789062
+            1253375 -789057
+            1253375 -768000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1253380 -789062
+            1253380 -810125
+            1249500 -814000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1253380 -768000
+            1253380 -789062
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1210900 -933651
+            1197050 -919805
+            1196810 -919805
+            1185000 -908000
+            1185000 -878000
+            1249000 -814000
+            1249500 -814000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1224750 -947497
+            1210900 -933651
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1210900 -933651
+            1224746 -947497
+          )
+        )
+      )
+      (net "Net-(C11-Pad1)"
+        (wire
+          (path F.Cu 2000
+            1201375 -767000
+            1201380 -767000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1212500 -814000
+            1212500 -778125
+            1201380 -767000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1175000 -803000
+            1201500 -803000
+            1212500 -814000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U2-VLOGIC)"
+        (wire
+          (path F.Cu 2500
+            1138000 -1230690
+            1138000 -1234000
+            1145000 -1241000
+            1178000 -1241000
+            1183000 -1236000
+            1183000 -1227000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1139250 -1226120
+            1138000 -1227380
+            1138000 -1230690
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1138000 -1230690
+            1138000 -1227375
+          )
+        )
+      )
+      (net "Net-(U2-REGOUT)"
+        (wire
+          (path F.Cu 2000
+            1188620 -1253690
+            1188625 -1253695
+            1188625 -1259000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1188620 -1253690
+            1188620 -1259000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1193000 -1227000
+            1193000 -1244000
+            1188620 -1248380
+            1188620 -1253690
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U2-CPOUT)"
+        (wire
+          (path F.Cu 2000
+            1247000 -1187620
+            1247000 -1187625
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1247000 -1187620
+            1247000 -1183000
+            1240000 -1176000
+            1202000 -1176000
+            1198000 -1180000
+            1198000 -1188000
+          )
+          (type protect)
+        )
+      )
+      (net Vbat
+        (wire
+          (path F.Cu 2500
+            1222100 -891100
+            1222100 -916566
+            1238889 -933354
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1222100 -891099
+            1222100 -891100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1223336 -892336
+            1222100 -891100
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1238889 -933354
+            1238890 -933355
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1238888 -933355
+            1238889 -933354
+          )
+        )
+        (via "Via[0-1]_800:400_um" 1298120 -803125
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1298120 -803125
+            1306250 -795000
+            1333000 -795000
+            1367000 -761000
+            1395000 -761000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1298120 -803125
+            1222100 -879151
+            1222100 -891099
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D2-A)"
+        (wire
+          (path F.Cu 2000
+            1500400 -1117500
+            1503400 -1120500
+            1508300 -1120500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1500400 -1117500
+            1492500 -1117500
+            1487000 -1123000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1508300 -1117500
+            1500400 -1117500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1505300 -1069500
+            1508300 -1072500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1505300 -1069500
+            1508300 -1069500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1489000 -1060000
+            1498500 -1069500
+            1505300 -1069500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1429620 -1173500
+            1428620 -1174500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1429620 -1173500
+            1430120 -1173000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1428620 -1175250
+            1428625 -1175255
+            1428625 -1176000
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1428620 -1175250
+            1428620 -1174500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1428620 -1176000
+            1428620 -1175250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1448380 -1009690
+            1448375 -1009685
+            1448375 -1007000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1448380 -1009690
+            1448380 -1007000
+            1449000 -1007000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1448380 -1012380
+            1448380 -1009690
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1426880 -1174500
+            1425380 -1176000
+            1374000 -1176000
+            1367500 -1182500
+            1367500 -1187100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1428380 -1173000
+            1426880 -1174500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1428620 -1174500
+            1428620 -1166380
+            1435000 -1160000
+            1464000 -1160000
+            1477000 -1147000
+            1477000 -1133000
+            1487000 -1123000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1426880 -1174500
+            1428620 -1174500
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1554250 -1164000
+            1554250 -1166000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1536000 -1102000
+            1536000 -1140000
+            1554250 -1158250
+            1554250 -1164000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1536000 -1093050
+            1536000 -1102000
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1348500 -1188250
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1347000 -1215500
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1347000 -1215500
+            1347000 -1189750
+            1348500 -1188250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1489000 -1060000
+            1489000 -1050000
+            1449000 -1010000
+            1449000 -1007000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1536000 -1093050
+            1536000 -1102000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1536000 -1102000
+            1528000 -1110000
+            1523000 -1110000
+            1516100 -1116900
+            1516050 -1116900
+            1512450 -1120500
+            1508300 -1120500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1347000 -1215500
+            1337300 -1225200
+            1315000 -1225200
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1522480 -1079520
+            1526520 -1079520
+            1536000 -1089000
+            1536000 -1093050
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1522480 -1079520
+            1515450 -1072500
+            1508300 -1072500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1348500 -1188250
+            1366350 -1188250
+            1367500 -1187100
+          )
+          (type protect)
+        )
+      )
+      (net Batt+
+        (wire
+          (path F.Cu 2000
+            1288400 -1300000
+            1290150 -1300000
+            1292500 -1297650
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1288400 -1300000
+            1292500 -1295900
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1274900 -1304100
+            1284300 -1304100
+            1288400 -1300000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1405500 -1215580
+            1405500 -1215575
+          )
+        )
+        (wire
+          (path F.Cu 5000
+            1405500 -1215580
+            1405500 -1231500
+            1395000 -1242000
+            1281000 -1242000
+            1273000 -1250000
+            1273000 -1289000
+            1281650 -1297650
+            1292500 -1297650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1367500 -1225200
+            1395880 -1225200
+            1405500 -1215580
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1294650 -1297650
+            1292500 -1297650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1296350 -1297650
+            1294650 -1297650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1294650 -1297650
+            1292500 -1297650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1296350 -1297650
+            1294650 -1297650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1344250 -1279650
+            1339600 -1275000
+            1320000 -1275000
+            1297350 -1297650
+            1296350 -1297650
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1235000 -1304000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 5000
+            1235000 -1304000
+            1215000 -1284000
+            1215000 -1260000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1235000 -1304000
+            1274800 -1304000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 5000
+            1344250 -1298650
+            1336900 -1306000
+            1300850 -1306000
+            1292500 -1297650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1274800 -1304000
+            1274900 -1304100
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1292500 -1297650
+            1294650 -1297650
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D2-K)"
+        (wire
+          (path F.Cu 2000
+            1530750 -1163000
+            1532750 -1163000
+            1533750 -1164000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1530750 -1163000
+            1533750 -1166000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1518000 -1160000
+            1527750 -1160000
+            1530750 -1163000
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1404000 -1157000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1518000 -1160000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1518000 -1160000
+            1512000 -1154000
+            1407000 -1154000
+            1404000 -1157000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1404000 -1157000
+            1402100 -1155100
+            1375000 -1155100
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(J1-Pin_2)"
+        (via "Via[0-1]_800:400_um" 1441500 -769750
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1526250 -790400
+            1505600 -769750
+            1441500 -769750
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1441500 -769750
+            1437000 -774250
+            1437000 -795000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/GPS_1_Rx
+        (wire
+          (path F.Cu 2000
+            1283790 -1048970
+            1283789 -1048969
+            1283789 -1048967
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1302750 -1064750
+            1299570 -1064750
+            1283790 -1048970
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1302750 -1064750
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1302750 -1064750
+            1300000 -1067500
+            1300000 -1082750
+            1471650 -1254400
+            1546000 -1254400
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/GPS_1_Tx
+        (wire
+          (path B.Cu 2000
+            1542250 -1230800
+            1544200 -1230800
+            1546000 -1229000
+          )
+        )
+        (wire
+          (path B.Cu 3000
+            1542250 -1230800
+            1542250 -1228000
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1542250 -1233600
+            1542250 -1230800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1280254 -1052504
+            1280254 -1052503
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1310000 -1080000
+            1307750 -1080000
+            1280254 -1052504
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1280254 -1052504
+            1280250 -1052500
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1310000 -1080000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1310000 -1080000
+            1459000 -1229000
+            1546000 -1229000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/SWCLK
+        (wire
+          (path F.Cu 2500
+            1319145 -986388
+            1375610 -986388
+            1409600 -952400
+            1501300 -952400
+            1510600 -943100
+            1510600 -922400
+            1517200 -915800
+            1525000 -915800
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1319140 -986388
+            1319145 -986388
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/SWDIO
+        (wire
+          (path F.Cu 2000
+            1312035 -1020720
+            1312037 -1020720
+            1312074 -1020683
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1312035 -1020720
+            1312000 -1020760
+            1312000 -1020960
+            1356040 -1065000
+            1377500 -1065000
+            1393750 -1048750
+            1393750 -1005250
+            1439600 -959400
+            1503600 -959400
+            1521800 -941200
+            1525000 -941200
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1312070 -1020680
+            1312035 -1020720
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/SWO
+        (wire
+          (path F.Cu 2500
+            1297931 -965174
+            1310610 -952500
+            1339500 -952500
+            1346000 -946000
+            1498600 -946000
+            1504500 -940100
+            1504500 -910900
+            1525000 -890400
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1297930 -965175
+            1297931 -965174
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1297932 -965175
+            1297931 -965174
+          )
+        )
+      )
+      (net /MCU/LCD_Miso
+        (wire
+          (path F.Cu 2000
+            1194175 -1040645
+            1194177 -1040645
+            1203533 -1031289
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1194175 -1040645
+            1184820 -1050000
+            1168100 -1050000
+            1095000 -1123100
+            1095000 -1258000
+            1120000 -1283000
+            1144000 -1283000
+            1180000 -1319000
+            1263000 -1319000
+            1293400 -1349400
+            1293400 -1364000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1203530 -1031290
+            1194175 -1040645
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LCD_Sck
+        (wire
+          (path F.Cu 2000
+            1192475 -1035275
+            1192476 -1035275
+            1199997 -1027754
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1192475 -1035275
+            1184950 -1042800
+            1161500 -1042800
+            1083000 -1121300
+            1083000 -1271000
+            1108000 -1296000
+            1133000 -1296000
+            1170000 -1333000
+            1219000 -1333000
+            1242600 -1356600
+            1242600 -1364000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1200000 -1027750
+            1192475 -1035275
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LCD_Mosi
+        (wire
+          (path F.Cu 2000
+            1202535 -1039360
+            1207068 -1034827
+            1207068 -1034825
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1202535 -1039360
+            1198000 -1043890
+            1198000 -1047000
+            1186000 -1059000
+            1173000 -1059000
+            1105000 -1127000
+            1105000 -1248000
+            1128000 -1271000
+            1159000 -1271000
+            1197000 -1309000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1207070 -1034830
+            1202535 -1039360
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1197000 -1309000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1197000 -1309000
+            1210000 -1309000
+            1215000 -1314000
+            1215000 -1361800
+            1217200 -1364000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LCD_DcRs
+        (wire
+          (path F.Cu 2000
+            1196460 -1024220
+            1196462 -1024218
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1196460 -1024220
+            1188680 -1032000
+            1160800 -1032000
+            1075000 -1117800
+            1075000 -1289000
+            1094000 -1308000
+            1126000 -1308000
+            1163000 -1345000
+            1183000 -1345000
+            1191800 -1353800
+            1191800 -1364000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1186930 -1359130
+            1191800 -1364000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LCD_rst
+        (wire
+          (path F.Cu 2000
+            1185853 -1013610
+            1185855 -1013612
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1185853 -1013610
+            1161390 -1013610
+            1065000 -1110000
+            1065000 -1304000
+            1081000 -1320000
+            1122400 -1320000
+            1166400 -1364000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1185860 -1013610
+            1185853 -1013610
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LCD_Cs
+        (wire
+          (path F.Cu 2500
+            1185855 -986388
+            1173480 -986388
+            1055000 -1104870
+            1055000 -1315000
+            1070000 -1330000
+            1107000 -1330000
+            1141000 -1364000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1185860 -986388
+            1185855 -986388
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/NRF_SCK2
+        (wire
+          (path F.Cu 2000
+            1228280 -1056040
+            1228282 -1056038
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1140000 -1139000
+            1140000 -1124250
+            1190250 -1074000
+            1210320 -1074000
+            1228280 -1056040
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1140000 -1139000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1140000 -1139000
+            1133000 -1132000
+            1116000 -1132000
+            1048000 -1064000
+            1048000 -740800
+            1098800 -690000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/NRF_UART_RX
+        (wire
+          (path F.Cu 2000
+            1189391 -982853
+            1189390 -982853
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1189390 -982853
+            1179540 -973000
+            1169000 -973000
+            1130000 -1012000
+            1097000 -1012000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1097000 -1012000
+            1078000 -1012000
+            1015000 -1075000
+            1015000 -1107000
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1097000 -1012000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 3000
+            1097000 -1012000
+            1095250 -1012000
+            1062000 -978750
+            1062000 -752200
+            1124200 -690000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/NRF_UART_TX
+        (wire
+          (path F.Cu 2500
+            1192928 -979315
+            1180610 -967000
+            1160000 -967000
+            1127000 -1000000
+            1092000 -1000000
+            1046500 -954500
+            1046500 -923000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1192930 -979317
+            1192928 -979315
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1192926 -979317
+            1192928 -979315
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1042250 -923000
+            1039250 -920000
+            1015000 -920000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1045250 -926000
+            1042250 -923000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1046500 -923000
+            1085000 -884500
+            1085000 -759250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1042250 -923000
+            1046500 -923000
+          )
+        )
+        (via "Via[0-1]_800:400_um" 1085000 -759250
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1085000 -759250
+            1085000 -754600
+            1149600 -690000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/NRF_RDYN
+        (wire
+          (path F.Cu 2000
+            1203533 -968711
+            1203530 -968711
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1203530 -968711
+            1110000 -875178
+            1110000 -745000
+            1136000 -719000
+            1167000 -719000
+            1175000 -711000
+            1175000 -690000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/NRF_MISO_2
+        (wire
+          (path F.Cu 2500
+            1207069 -965174
+            1122000 -880107
+            1122000 -751000
+            1145000 -728000
+            1174420 -728000
+            1200400 -702021
+            1200400 -690000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1207070 -965175
+            1207069 -965174
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1207068 -965175
+            1207069 -965174
+          )
+        )
+      )
+      (net /MCU/NRF_MOSI2
+        (wire
+          (path F.Cu 2000
+            1210604 -961639
+            1210600 -961639
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1210600 -961639
+            1204640 -955680
+            1203940 -955680
+            1133000 -884743
+            1133000 -763000
+            1159000 -737000
+            1178800 -737000
+            1225800 -690000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/NRF_REQN
+        (wire
+          (path F.Cu 2000
+            1214139 -958103
+            1214139 -958104
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1214139 -958103
+            1145000 -888964
+            1145000 -766500
+            1166500 -745000
+            1193250 -745000
+            1248250 -690000
+            1251200 -690000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1214140 -958104
+            1214139 -958103
+          )
+          (type protect)
+        )
+      )
+      (net /Power/USB_CC2
+        (wire
+          (path F.Cu 2500
+            1449000 -1144750
+            1454000 -1144750
+            1491250 -1107500
+            1508300 -1107500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1447750 -1145120
+            1448120 -1144750
+            1449000 -1144750
+          )
+          (type protect)
+        )
+      )
+      (net USB_FS_D+
+        (wire
+          (path F.Cu 2000
+            1448620 -1080250
+            1448625 -1080245
+            1448625 -1076000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1448620 -1080250
+            1448620 -1076120
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1452000 -1087750
+            1448620 -1084380
+            1448620 -1080250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1308540 -1024220
+            1308538 -1024218
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1452000 -1087750
+            1371720 -1087750
+            1315160 -1031200
+            1315160 -1030840
+            1308540 -1024220
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1508300 -1087500
+            1499670 -1087500
+            1499420 -1087750
+            1452000 -1087750
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1508300 -1087500
+            1519500 -1087500
+            1522900 -1090900
+            1522900 -1093500
+            1518900 -1097500
+            1508300 -1097500
+          )
+          (type protect)
+        )
+      )
+      (net "USB_FS_D-"
+        (wire
+          (path F.Cu 2000
+            1448620 -1100125
+            1448625 -1100130
+            1448625 -1104000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1448620 -1100125
+            1448620 -1102750
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1453880 -1092250
+            1448620 -1097500
+            1448620 -1100125
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1308315 -1031065
+            1308314 -1031065
+            1305003 -1027754
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1308315 -1031065
+            1305000 -1027750
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1453880 -1092250
+            1369850 -1092250
+            1311980 -1034380
+            1311630 -1034380
+            1308315 -1031065
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1456000 -1092250
+            1453880 -1092250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1494700 -1092500
+            1484400 -1092500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1499670 -1092500
+            1494700 -1092500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1499670 -1092500
+            1508300 -1092500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1494700 -1092500
+            1499670 -1092500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1508300 -1092500
+            1499670 -1092500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1456000 -1092250
+            1453880 -1092250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1508300 -1092500
+            1499670 -1092500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1499670 -1092500
+            1499420 -1092250
+            1456000 -1092250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1508300 -1102500
+            1492500 -1102500
+            1488600 -1098600
+            1494700 -1092500
+          )
+          (type protect)
+        )
+      )
+      (net /Power/USB_CC1
+        (wire
+          (path F.Cu 2000
+            1449000 -1035000
+            1449000 -1034000
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1447750 -1037125
+            1449000 -1035875
+            1449000 -1035000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1447750 -1037125
+            1447750 -1036250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1447750 -1038000
+            1447750 -1037125
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1449000 -1035000
+            1452000 -1035000
+            1494500 -1077500
+            1508300 -1077500
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U1-BOOT0)"
+        (wire
+          (path F.Cu 2000
+            1288625 -939124
+            1280254 -947495
+            1280254 -947497
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1288625 -939124
+            1297000 -930751
+            1297000 -906000
+            1332500 -870500
+            1332500 -827500
+            1365000 -795000
+            1417000 -795000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1280250 -947497
+            1288625 -939124
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/HSE_OUT
+        (wire
+          (path F.Cu 2000
+            1221211 -951033
+            1221210 -951033
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1175000 -823000
+            1175000 -904822
+            1221210 -951033
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U4-CHRG)"
+        (wire
+          (path F.Cu 3000
+            1355000 -1155100
+            1349900 -1155100
+            1339000 -1166000
+            1339000 -1194750
+            1344050 -1199800
+            1367500 -1199800
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LED3
+        (wire
+          (path F.Cu 2000
+            1276720 -1056040
+            1276718 -1056038
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1292800 -1095700
+            1292800 -1072120
+            1276720 -1056040
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1431000 -1233000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1292800 -1095700
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1292800 -1095700
+            1296700 -1095700
+            1431000 -1230000
+            1431000 -1233000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1431000 -1233000
+            1457000 -1259000
+            1486000 -1259000
+            1490000 -1255000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/IMU_SDA
+        (wire
+          (path F.Cu 2000
+            1290861 -1041896
+            1290860 -1041897
+            1290860 -1041900
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1311930 -1104930
+            1311928 -1104930
+            1306929 -1109929
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1311930 -1104930
+            1305860 -1111000
+            1271000 -1111000
+            1223000 -1159000
+            1184000 -1159000
+            1178000 -1165000
+            1178000 -1188000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1290860 -1041900
+            1318000 -1069040
+            1318000 -1098860
+            1311930 -1104930
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/IMU_SCL
+        (wire
+          (path F.Cu 2000
+            1294396 -1038361
+            1294399 -1038361
+            1294400 -1038360
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1332929 -1085931
+            1332929 -1085929
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1332929 -1085931
+            1338860 -1080000
+            1348000 -1080000
+            1363000 -1095000
+            1363000 -1106000
+            1330000 -1139000
+            1270750 -1139000
+            1241750 -1168000
+            1192000 -1168000
+            1183000 -1177000
+            1183000 -1188000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1294400 -1038360
+            1329550 -1073510
+            1329550 -1089310
+            1332929 -1085931
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/EEPROM_SCL_1
+        (wire
+          (path F.Cu 2000
+            1331929 -928071
+            1331930 -928071
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1287325 -954568
+            1287330 -954568
+          )
+        )
+        (wire
+          (path F.Cu 2000
+            1410750 -866350
+            1411750 -866350
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1331930 -928071
+            1329550 -930452
+            1311440 -930452
+            1287330 -954568
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1331930 -928071
+            1334310 -930452
+            1399550 -930452
+            1430000 -900000
+            1430000 -872000
+            1424350 -866350
+            1411750 -866350
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/EEPROM_SDA_1
+        (wire
+          (path F.Cu 2000
+            1308370 -918727
+            1311929 -915168
+            1311929 -908071
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1308370 -918727
+            1308370 -926451
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1308370 -911004
+            1308370 -918727
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1410750 -879050
+            1402750 -879050
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1296080 -938742
+            1283790 -951033
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1308370 -926451
+            1296080 -938742
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1296080 -938742
+            1283789 -951033
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1402750 -879050
+            1389950 -879050
+            1372000 -897000
+            1342120 -897000
+            1313420 -925702
+            1309120 -925702
+            1308370 -926451
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LED4
+        (wire
+          (path F.Cu 2000
+            1266110 -1076765
+            1266112 -1076763
+            1266112 -1066645
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1266110 -1076765
+            1266110 -1086890
+            1259000 -1094000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1266110 -1066640
+            1266110 -1076765
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1448500 -1410250
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1259000 -1094000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1448500 -1410250
+            1448000 -1409750
+            1448000 -1297000
+            1402000 -1251000
+            1304000 -1251000
+            1277000 -1224000
+            1277000 -1122000
+            1259000 -1104000
+            1259000 -1094000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1448500 -1410250
+            1440000 -1418750
+            1440000 -1425000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LED5
+        (wire
+          (path F.Cu 2000
+            1221210 -1048970
+            1221211 -1048969
+            1221211 -1048967
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1121500 -1174000
+            1121500 -1132250
+            1190750 -1063000
+            1207180 -1063000
+            1221210 -1048970
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1048750 -1424000
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1121500 -1174000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1121500 -1174000
+            1111000 -1184500
+            1111000 -1271000
+            1048000 -1334000
+            1048000 -1423250
+            1048750 -1424000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1048750 -1424000
+            1067000 -1424000
+            1068000 -1425000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LED8
+        (wire
+          (path F.Cu 2500
+            1219547 -928154
+            1195000 -903609
+            1195000 -897500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1219547 -928154
+            1231817 -940424
+            1231817 -940426
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1231820 -940426
+            1219547 -928154
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1195000 -897500
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1076250 -807500
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1076250 -807500
+            1105000 -807500
+            1195000 -897500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1076250 -807500
+            1065000 -807500
+            1055000 -797500
+            1055000 -742500
+            1045500 -733000
+            1015000 -733000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LED9
+        (wire
+          (path F.Cu 2500
+            1273182 -940425
+            1284250 -929359
+            1284250 -900000
+            1320000 -864250
+            1320000 -612000
+            1308750 -600750
+            1081500 -600750
+            1066000 -585250
+            1066000 -566000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1273180 -940426
+            1273182 -940425
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1273183 -940426
+            1273182 -940425
+          )
+        )
+      )
+      (net /MCU/LED10
+        (wire
+          (path F.Cu 2000
+            1283860 -936821
+            1283859 -936821
+            1276718 -943962
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1283860 -936821
+            1291000 -929680
+            1291000 -903000
+            1325750 -868250
+            1325750 -818250
+            1358000 -786000
+            1376000 -786000
+            1431250 -730750
+            1431250 -596750
+            1449000 -579000
+            1449000 -563000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1276720 -943962
+            1283860 -936821
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U12-ADJ)"
+        (wire
+          (path F.Cu 2000
+            1364120 -1311650
+            1365000 -1312530
+            1365000 -1321775
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1364120 -1311650
+            1364120 -1301520
+            1367000 -1298650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1364120 -1321780
+            1364120 -1311650
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1395000 -1298900
+            1395000 -1299775
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1367000 -1298650
+            1394750 -1298650
+            1395000 -1298900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(U4-prog2)"
+        (wire
+          (path F.Cu 3000
+            1303000 -1155100
+            1289900 -1155100
+            1283000 -1162000
+            1283000 -1193000
+            1289800 -1199800
+            1315000 -1199800
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/user_1
+        (wire
+          (path F.Cu 2500
+            1312072 -979315
+            1312070 -979317
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1361000 -963000
+            1350640 -973358
+            1318030 -973358
+            1312072 -979315
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1312074 -979317
+            1312072 -979315
+          )
+        )
+        (via "Via[0-1]_800:400_um" 1361000 -963000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1361000 -963000
+            1361000 -950750
+            1427000 -884750
+            1427000 -755750
+            1466000 -716750
+            1494250 -716750
+            1499500 -711500
+            1499500 -698500
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1466000 -654000
+            1466000 -644000
+            1476500 -633500
+            1499500 -633500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1499500 -698500
+            1499500 -633500
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/HallEffect_ip
+        (wire
+          (path F.Cu 2000
+            1278090 -1064480
+            1278089 -1064480
+            1273183 -1059574
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1278090 -1064480
+            1273180 -1059570
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1276000 -1093300
+            1276000 -1088000
+            1283000 -1081000
+            1283000 -1069390
+            1278090 -1064480
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1520000 -1407000
+            1545400 -1407000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1484000 -1340000
+            1484000 -1394000
+            1497000 -1407000
+            1520000 -1407000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1545400 -1407000
+            1546400 -1407000
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1276000 -1093300
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1464500 -1340250
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1276000 -1093300
+            1276000 -1104000
+            1294000 -1122000
+            1294000 -1226000
+            1304000 -1236000
+            1408000 -1236000
+            1466000 -1294000
+            1466000 -1338750
+            1464500 -1340250
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1464500 -1340250
+            1464750 -1340000
+            1484000 -1340000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D1-K)"
+        (wire
+          (path F.Cu 3000
+            1015000 -940000
+            1015000 -984000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D4-K)"
+        (wire
+          (path F.Cu 3000
+            1015000 -1177000
+            1015000 -1127000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D10-K)"
+        (wire
+          (path F.Cu 2500
+            1487000 -753000
+            1490000 -750000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1490000 -750000
+            1490000 -790000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D11-K)"
+        (via "Via[0-1]_800:400_um" 1492800 -936200
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1493100 -966650
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1493100 -966650
+            1494200 -965550
+            1494200 -937600
+            1492800 -936200
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1489000 -923000
+            1490000 -922000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1493100 -966650
+            1490000 -969750
+            1490000 -985000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1492800 -936200
+            1490000 -933400
+            1490000 -922000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D12-K)"
+        (wire
+          (path F.Cu 3000
+            1490000 -1235000
+            1490000 -1205000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D13-K)"
+        (wire
+          (path F.Cu 2500
+            1420000 -1425000
+            1378000 -1425000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D14-K)"
+        (wire
+          (path F.Cu 2500
+            1088000 -1425000
+            1135000 -1425000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D15-K)"
+        (wire
+          (path F.Cu 2500
+            1015000 -753000
+            1015000 -791000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D16-K)"
+        (wire
+          (path F.Cu 2500
+            1086000 -566000
+            1132000 -566000
+            1134000 -564000
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(D17-K)"
+        (wire
+          (path F.Cu 2500
+            1429000 -563000
+            1380000 -563000
+            1378000 -565000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LED1
+        (wire
+          (path F.Cu 2000
+            1309875 -967373
+            1305003 -972245
+            1305003 -972246
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1309875 -967373
+            1305000 -972246
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1332250 -962500
+            1314750 -962500
+            1309875 -967373
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1332250 -962500
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1465750 -876500
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1465750 -876500
+            1465750 -960500
+            1452000 -974250
+            1344000 -974250
+            1332250 -962500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1490000 -730000
+            1471500 -730000
+            1463000 -738500
+            1463000 -873750
+            1465750 -876500
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/LED2
+        (wire
+          (path F.Cu 2000
+            1311595 -1048490
+            1297932 -1034827
+            1297932 -1034825
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1311595 -1048490
+            1297930 -1034830
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1329850 -1062150
+            1325260 -1062150
+            1311595 -1048490
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1329850 -1062150
+          (type protect)
+        )
+        (via "Via[0-1]_800:400_um" 1491000 -864000
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1329850 -1062150
+            1337700 -1070000
+            1416250 -1070000
+            1478400 -1007850
+            1478400 -876600
+            1491000 -864000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            1491000 -864000
+            1490000 -865000
+            1490000 -902000
+          )
+          (type protect)
+        )
+      )
+      (net /MCU/user_2
+        (wire
+          (path F.Cu 2000
+            1294396 -961639
+            1294400 -961639
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1294400 -961639
+            1312040 -944000
+            1336500 -944000
+            1342250 -938250
+            1435500 -938250
+            1455000 -918750
+            1455000 -702468
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2000
+            1455000 -702000
+            1455000 -702468
+          )
+        )
+        (wire
+          (path F.Cu 3000
+            1455000 -702000
+            1455000 -610000
+            1466500 -598500
+            1499500 -598500
+          )
+          (type protect)
+        )
+        (wire
+          (path B.Cu 2500
+            1466000 -559000
+            1466000 -548000
+            1480500 -533500
+            1499500 -533500
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 3000
+            1499500 -598500
+            1499500 -533500
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)
